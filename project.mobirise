@@ -73,13 +73,19 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "pwa-switcher": false,
+    "pwa-switcher": true,
     "uniqCompNum": 14,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "cssOptimize": false,
     "lazyLoad": false,
-    "lazyType": "nothing"
+    "lazyType": "nothing",
+    "PWA": {
+      "enabled": true,
+      "name": "King Lyon",
+      "icon": "@PROJECT_PATH@/assets/images/logo-riggi-512x512.png",
+      "themeColor": "#0df235"
+    }
   },
   "pages": {
     "index.html": {
